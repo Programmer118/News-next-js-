@@ -6,7 +6,6 @@ import Landing from "../Landing";
 
 const Slug = ({ api }) => {
   const router = useRouter();
-  console.log(router.query);
   const [Articles, setArticles] = useState([]);
   const [Message, setMessage] = useState("");
   const [loading, setLoading] = useState(true);
